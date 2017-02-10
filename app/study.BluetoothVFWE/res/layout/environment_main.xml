@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_all"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/ev_back"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_top"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="800"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_middle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="10"
+            android:background="@drawable/ev_back"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_Show"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_show"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout_outside"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="100"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout_1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="100"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:id="@+id/LinearLayout1_1"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="100"
+                                android:background="@drawable/iron_square"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/textView1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="90"
+                                    android:gravity="center"
+                                    android:text="濕度"
+                                    android:textColor="@color/BLACK"
+                                    android:textSize="25sp" />
+
+                                <TextView
+                                    android:id="@+id/textView1b"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="85"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/WHITE"
+                                    android:textSize="40sp" />
+
+                                <LinearLayout
+                                    android:id="@+id/LinearLayout_1_1bottom"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="100"
+                                    android:orientation="horizontal" >
+
+                                    <LinearLayout
+                                        android:id="@+id/LinearLayout_1bottom1"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="60"
+                                        android:orientation="horizontal" >
+                                    </LinearLayout>
+
+                                    <TextView
+                                        android:id="@+id/textView1bb"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="100"
+                                        android:gravity="left"
+                                        android:text="%"
+                                        android:textColor="@color/WHITE"
+                                        android:textSize="30dp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/LinearLayout1_2"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="100"
+                                android:background="@drawable/iron_square"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="90"
+                                    android:gravity="center"
+                                    android:text="溫度"
+                                    android:textColor="@color/BLACK"
+                                    android:textSize="25sp" />
+
+                                <TextView
+                                    android:id="@+id/textView2b"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="85"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/WHITE"
+                                    android:textSize="40sp" />
+
+                                <LinearLayout
+                                    android:id="@+id/LinearLayout_1_2bottom"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="100"
+                                    android:orientation="horizontal" >
+
+                                    <LinearLayout
+                                        android:id="@+id/LinearLayout_1bottom2"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="60"
+                                        android:orientation="horizontal" >
+                                    </LinearLayout>
+
+                                    <TextView
+                                        android:id="@+id/textView2bb"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_weight="100"
+                                        android:gravity="left"
+                                        android:text="℃"
+                                        android:textColor="@color/WHITE"
+                                        android:textSize="30dp" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="800"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

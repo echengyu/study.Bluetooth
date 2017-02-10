@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ev_back" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="100"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1_1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="100"
+            android:background="@drawable/iron_square"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="90"
+                android:gravity="center"
+                android:text="聲音"
+                android:textColor="@color/BLACK"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView1b"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="85"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/WHITE"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_1_1bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="100"
+                android:orientation="horizontal" >
+                
+                <TextView
+                    android:id="@+id/textView1bOn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="110"
+                    android:gravity="right"
+                    android:text="OFF"
+                    android:textColor="@color/WHITE"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_1bottom1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="120"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView1bb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="110"
+                    android:gravity="left"
+                    android:text="---"
+                    android:textColor="@color/WHITE"
+                    android:textSize="30dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1_2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="100"
+            android:background="@drawable/iron_square"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="90"
+                android:gravity="center"
+                android:text="火焰"
+                android:textColor="@color/BLACK"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView2b"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="85"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/WHITE"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_1_2bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="100"
+                android:orientation="horizontal" >
+                
+                <TextView
+                    android:id="@+id/textView2bOn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="110"
+                    android:gravity="right"
+                    android:text="OFF"
+                    android:textColor="@color/WHITE"
+                    android:textSize="20sp" />                
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_1bottom2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="120"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView2bb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="110"
+                    android:gravity="left"
+                    android:text="---"
+                    android:textColor="@color/WHITE"
+                    android:textSize="30sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="100"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1_3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="100"
+            android:background="@drawable/iron_square"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="90"
+                android:gravity="center"
+                android:text="水位"
+                android:textColor="@color/BLACK"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView3b"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="85"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/WHITE"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_1_3bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="100"
+                android:orientation="horizontal" >
+                
+                <TextView
+                    android:id="@+id/textView3bOn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="110"
+                    android:gravity="right"
+                    android:text="OFF"
+                    android:textColor="@color/WHITE"
+                    android:textSize="20sp" />                
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_3bottom1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="120"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView3bb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="110"
+                    android:gravity="left"
+                    android:text="---"
+                    android:textColor="@color/WHITE"
+                    android:textSize="30sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1_4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="100"
+            android:background="@drawable/iron_square"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="90"
+                android:gravity="center"
+                android:text="土壤"
+                android:textColor="@color/BLACK"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView4b"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="85"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/WHITE"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_4_2bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="100"
+                android:orientation="horizontal" >
+                
+                <TextView
+                    android:id="@+id/textView4bOn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="110"
+                    android:gravity="right"
+                    android:text="OFF"
+                    android:textColor="@color/WHITE"
+                    android:textSize="20sp" />                
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_4bottom2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="120"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView4bb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="110"
+                    android:gravity="left"
+                    android:text="---"
+                    android:textColor="@color/WHITE"
+                    android:textSize="30sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="100"
+        android:layout_margin="10sp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:gravity="left"
+            android:onClick="buttonOnClick"
+            android:background="#00000000" />
+
+    </LinearLayout>
+
+</LinearLayout>

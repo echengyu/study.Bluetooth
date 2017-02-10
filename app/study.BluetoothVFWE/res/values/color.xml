@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="darkgray">#808080</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="blue">#0000FF</drawable>
+    <drawable name="black">#000000</drawable>
+
+    <color name="ORANGE">#FF6000</color>
+    <color name="GRAY">#A8A8A8</color>
+    <color name="RED">#FF0000</color>
+    <color name="YELLOW">#FFFF00</color>
+    <color name="GREEN">#00FF00</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="BLUE">#0000FF</color>
+    <color name="BLUE2">#007FFF</color>
+    <color name="BLUE3">#38B0DE</color>
+    <color name="PINK">#FF6EC7</color>
+    <color name="SKY">#3299CC</color>
+    <color name="BLACK">#000000</color>
+    <color name="Grey">#BEBEBE</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_bg">#fff0f0f0</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bg_gradient_start">#3990CA</color>
+    <color name="bg_gradient_end">#15547E</color>
+    <color name="bg_button_login">#1D394C</color>
+    
+	<!--   <color name="GRAY">#C0C0C0</color> -->
+
+</resources>
